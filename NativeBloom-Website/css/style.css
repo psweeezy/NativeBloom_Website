@@ -1,0 +1,341 @@
+body {
+  background-color: #f7f4ed;
+  font: 20px Montserrat, sans-serif;
+  line-height: 1.8;
+  color: #f5f6f7;
+}
+
+p {font-size: 16px;}
+
+.margin {
+  margin-bottom: 25px;
+}
+
+.short {
+  padding: 30px;
+}
+
+h3{
+  font-weight: 700;
+
+}
+
+
+
+.bg-1 {
+  background-color: #f7f4ed; /* white */
+  color: #f7f4ed;
+}
+
+/* flower grid + text */
+.bg-3 {
+  background-color: #f7f4ed; /* White */
+  color: #555555;
+}
+
+/* map */
+.bg-5{
+  background-color: #BFD9AC; /* light Green */
+}
+
+/* Learn more section*/
+.bg-2 {
+  background-color: #954E41; /*  red-brown cta */
+  color: #f7f4ed;
+}
+
+/* Footer */
+.bg-4 {
+  background-color: #29381e; /* Really Dark Green */
+  color: #f7f4ed;
+}
+
+
+/*
+document colours:
+BFD9AC -- light green
+A1C588 -- medium Green
+7AA75C -- dark Green
+29381e -- really dark Green
+954E41 -- red-brown cta
+436684 -- blue cta
+EDE6DE -- cream
+A98467 -- medium brown
+423127 -- dark brown
+*/
+
+/* Container for content */
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  width: 70%;
+}
+
+/* Navbar */
+.navbar {
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.navbar-nav img{
+  max-width: 80px;
+}
+.navbar-nav li a{
+font-weight:600;
+}
+.navbar-nav  li a:hover {
+  color: #7AA75C !important;
+}
+
+
+
+/* Changes to the carousel formatting and style */
+.carousel-control{
+margin-top: 5vw;
+  height: 49vw;
+}
+
+.carousel-caption{
+  background-color: #29381e;
+  padding: 2vw;
+  margin-bottom: 7vw;
+}
+
+/* main title text */
+.main-title{
+  font-size: 7vw;
+  font-weight: 700;
+}
+
+/* Main subtitle text */
+.main-subtitle{
+  font-size: 2vw;
+  font-weight: 400;
+}
+
+
+
+
+
+
+/* GRID FOR NATIVE WILDFLOWER SAMPLES */
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+  justify-content: center;
+}
+
+/* Create 3 equal columns that sits next to each other */
+.column {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  max-width: 30%;
+  padding: 0% 1%;
+}
+/* formatting the images in the grid */
+.column img {
+  margin: 3%;
+  vertical-align: middle;
+  width: 100%;
+  height: auto;
+  float: left;
+  background-size: cover;
+  padding-top: 2%;
+}
+
+/* Responsive layout - makes a two column-layout instead of 3 columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 40%;
+  }
+}
+
+
+
+
+
+
+/* Screen mockups with text section */
+/* right side screens */
+.container-r {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 0 8vw;
+     /* padding-top: 15px;
+     padding-bottom: 15px; */
+   }
+/* left side screens */
+ .container-l {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 8vw;
+    }
+
+.last{
+  margin-bottom: 7vw;
+}
+
+/* style for screen images */
+ .image img {
+   max-width: 70%;
+   padding: 0;
+   margin:0;
+    z-index: 1;
+ }
+ .image {
+   flex-basis: 70%;
+
+ }
+
+ /* style for main steps text  */
+ .text h1{
+       font-size: 2.5vw;
+       font-weight: 600;
+       padding-left: 20px;
+       color: #f7f4ed;
+     }
+/* green background */
+.bg-colour{
+  width: 90vw;
+  background-color: #7AA75C;
+  padding: 6vw;
+}
+
+
+
+
+
+/* map formatting */
+.mediaWrapper-map {
+   display:block;
+    position: relative;
+    padding-bottom: 40%;
+    height: 0;
+    overflow: hidden;
+}
+
+.mediaWrapper iframe {
+    position: absolute;
+    top: 40px;
+    width: 80%;
+    height: 60%;
+}
+
+#map-text{
+  color: #29381e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Change text style for in-text links */
+.text-link{
+  color: #BFD9AC;
+  text-decoration: underline;
+}
+
+.text-link:hover{
+  color: #29381e;
+  transition: color 0.2s;
+}
+
+.para{
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+/* Footer style */
+
+.footer-basic {
+  padding:25px 0;
+  color:#fff;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:14px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:10px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:5px;
+  text-align:center;
+  font-size:10px;
+  color:#aaa;
+  margin-bottom:0;
+}
